@@ -36,3 +36,12 @@ An automated CV screening system that uses LLMs (Llama 3 via Groq API) to evalua
 ## Limitations & Edge Cases
 * **Format:** Currently supports raw text input. PDF/Word support is planned for future iterations.
 * **AI Hallucinations:** As with any LLM, edge cases exist where the model might infer a skill not explicitly stated. The system is designed to minimize this via a strict `SYSTEM_PROMPT` and `temperature=0.1`.
+
+
+
+
+<img width="659" height="487" alt="image" src="https://github.com/user-attachments/assets/4d43abb9-f9be-4a9f-9a9c-61df4561c365" />
+<img width="749" height="252" alt="image" src="https://github.com/user-attachments/assets/fcecd001-685f-4b07-9be0-1fca5379473f" />
+<img width="442" height="191" alt="image" src="https://github.com/user-attachments/assets/49dca53c-0aed-4bc1-a89c-f0e5be1756f8" />
+
+
