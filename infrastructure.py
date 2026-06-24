@@ -6,7 +6,7 @@ from domain import SYSTEM_PROMPT
 
 load_dotenv()
 
-client = Groq() # Переконайся, що ключ GROQ_API_KEY є у змінних середовища
+client = Groq()
 
 def parse_cv(text: str) -> dict:
     """Парсить текст резюме через LLM та повертає DTO кандидата"""
