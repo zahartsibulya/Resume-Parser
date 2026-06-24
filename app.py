@@ -13,13 +13,8 @@ def analyze_cv_api():
         return jsonify({"error": "Missing 'cv_text'"}), 400
         
     try:
-        # 1. Отримуємо DTO із зовнішнього світу
-        candidate_dto = parse_cv(data['cv_text'])
-        
-        # 2. Передаємо DTO в шар бізнес-логіки
+        candidate_dto = parse_cv(data['cv_text'])#отримуємо DTO
         evaluation_result = evaluate_candidate(candidate_dto)
-        
-        # 3. Повертаємо результат
         return jsonify(evaluation_result), 200
         
     except Exception as e:
